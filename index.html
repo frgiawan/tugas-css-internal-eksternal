@@ -15,63 +15,88 @@
     }
     .content{
         background-color:whitesmoke;
-        margin: auto;
+        height: 100%;
         border-radius: 10px;
+    }
+    .main {
+        width: 70%;
+        float: right;
+        box-sizing: border-box;
+    }
+    .sidebar {
+        float: left;
+        width: 30%;
     }
 </style>
 <body>
-    <div class="content">
+    <div class="content cf">
         <div class="header">
             <ul type="none">
-                <li><a href="##">home</a></li>
-                <li><a href="##">about</a></li>
-                <li><a href="##">contact</a></li>
+                <li class="home"><a href="##">home</a></li>
+                <div class="navrig">
+                    <li><a href="##">about</a></li>
+                    <li><a href="##">contact</a></li>
+                    <li><a href="##">sign up</a></li>
+                </div>
             </ul>
-            <h2 class="judul">Tugas Web1 CSS internal & Ekternal</h2>
         </div>
-        <div class="hero"></div>
-        <div class="artikel">
-            <div class="internal">
-                <p class="publiser">Publish by <a href="##">Firgiawan_F52120048</a> Tahun 2022</p>
-            <div class="artikel1">
-                <h3>Css Internal</h3>
-                <p>Jenis CSS yang pertama yang akan kita bahas adalah Internal CSS. Internal CSS adalah kode CSS yang ditulis dalam tag style dan lokasinya berada pada bagian atas header file HTML. Internal CSS digunakan untuk membuat custom khusus dalam satu halaman website sehingga halaman lain tidak terpengaruh.</p>
-                <p>Custom halaman dengan internal CSS ini cocok dipakai untuk Anda yang memiliki website dengan tampilan yang berbeda-beda. Jadi untuk Anda yang ingin membuat website unik dengan berbagai tampilan halaman website yang berbeda, maka inline CSS ini pilihan yang paling benar.</p>
-                <h3>Kelebihan CSS internal</h3>
-                <ul>
-                    <li>Mudah dalam melakukan editing tiap halaman website</li>
-                    <li>Tidak perlu melakukan upload file CSS karena masuk dalam file HTML</li>
-                    <li>Class dan ID bisa dipakai oleh internal stylesheet</li>
-                    <li>Mudah saat memperbaiki error CSS website</li>
-                </ul>
-                <h3>Kekurangan CSS internal</h3>
-                <ul>
-                    <li>Tidak cocok untuk halaman website yang membutuhkan halaman custom</li>
-                    <li>Halaman website rawan berantakan saat file CSS gagal load dengan sempurna sehingga tampilan website berantakan.</li>
-                </ul>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="img/profile.JPG" alt="profile" class="pr">
+                <p class="nama">Firgiawan</p>
+                <p class="bio">Mahasiswa tahun ke dua jurusan Sistem Informasi Untad yang berasal dari Kabupate Morowali dan sekarang tinggal di Jln. RE Martadinata I, Tondo, Kota Palu </p>
             </div>
-            </div>
-            <div class="eksternal">
-                <h3>CSS Ekternal</h3>
-                <p>Jenis CSS yang kedua adalah External CSS. External CSS adalah kode CSS yang penulisannya dipisah dengan file HTML. Jadi file CSS ditulis pada file sendiri dengan ekstensi .css. File External CSS biasa dituliskan pada bagian head, jadi setiap halaman website dilakukan pemanggilan file .css.</p>
-                <p>Penggunaan External CSS lebih simple dan sederhana karena tidak perlu menuliskan CSS dalam setiap file HTML. Nah berikut kelebihan dan kekurangan serta contoh penulisan External CSS.</p>
-                <h3>Kelebihan CSS Ekternal</h3>
-                <ul>
-                    <li>Ukuran file HTML menjadi lebih kecil</li>
-                    <li>Penulisan kode HTML menjadi lebih rapi</li>
-                    <li>Loading website menjadi lebih cepat</li>
-                    <li>File CSS bisa digunakan untuk beberapa halaman website berbeda</li>
-                </ul>
-                <h3>Kekurangan CSS Ekternal</h3>
-                <ul>
-                    <li>Tidak cocok untuk halaman website yang membutuhkan halaman custom</li>
-                    <li>Halaman website rawan berantakan saat file CSS gagal load dengan sempurna sehingga tampilan website berantakan.</li>
+            <div class="draff">
+                <h3>Daftar Isi</h3>
+                <ul type="none">
+                    <li><a href="#q1">Judul</a></li>
+                    <li><a href="#q2">Css Internal</a></li>
+                    <li><a href="#q3">Css Eksternal</a></li>
                 </ul>
             </div>
         </div>
-        <div class="batas"></div>
-        <div class="footer">
-            <p class="copy">Copyright 2022 by Firgiawan_F52120048</p>
+        <div class="main">
+            <h2 class="judul" id="q1">Tugas Web1 CSS internal & Ekternal</h2>
+            <div class="image"></div>
+            <div class="artikel">
+                <div class="internal">
+                    <p class="publiser">Publish by <a href="##">Firgiawan_F52120048</a> Tahun 2022</p>
+                <div class="artikel1">
+                    <h3 id="q2">Css Internal</h3>
+                    <p>Jenis CSS yang pertama yang akan kita bahas adalah Internal CSS. Internal CSS adalah kode CSS yang ditulis dalam tag style dan lokasinya berada pada bagian atas header file HTML. Internal CSS digunakan untuk membuat custom khusus dalam satu halaman website sehingga halaman lain tidak terpengaruh.</p>
+                    <p>Custom halaman dengan internal CSS ini cocok dipakai untuk Anda yang memiliki website dengan tampilan yang berbeda-beda. Jadi untuk Anda yang ingin membuat website unik dengan berbagai tampilan halaman website yang berbeda, maka inline CSS ini pilihan yang paling benar.</p>
+                    <h3>Kelebihan CSS internal</h3>
+                    <ul>
+                        <li>Mudah dalam melakukan editing tiap halaman website</li>
+                        <li>Tidak perlu melakukan upload file CSS karena masuk dalam file HTML</li>
+                        <li>Class dan ID bisa dipakai oleh internal stylesheet</li>
+                        <li>Mudah saat memperbaiki error CSS website</li>
+                    </ul>
+                    <h3>Kekurangan CSS internal</h3>
+                    <ul>
+                        <li>Tidak cocok untuk halaman website yang membutuhkan halaman custom</li>
+                        <li>Halaman website rawan berantakan saat file CSS gagal load dengan sempurna sehingga tampilan website berantakan.</li>
+                    </ul>
+                </div>
+                </div>
+                <div class="eksternal">
+                    <h3 id="q3">CSS Ekternal</h3>
+                    <p>Jenis CSS yang kedua adalah External CSS. External CSS adalah kode CSS yang penulisannya dipisah dengan file HTML. Jadi file CSS ditulis pada file sendiri dengan ekstensi .css. File External CSS biasa dituliskan pada bagian head, jadi setiap halaman website dilakukan pemanggilan file .css.</p>
+                    <p>Penggunaan External CSS lebih simple dan sederhana karena tidak perlu menuliskan CSS dalam setiap file HTML. Nah berikut kelebihan dan kekurangan serta contoh penulisan External CSS.</p>
+                    <h3>Kelebihan CSS Ekternal</h3>
+                    <ul>
+                        <li>Ukuran file HTML menjadi lebih kecil</li>
+                        <li>Penulisan kode HTML menjadi lebih rapi</li>
+                        <li>Loading website menjadi lebih cepat</li>
+                        <li>File CSS bisa digunakan untuk beberapa halaman website berbeda</li>
+                    </ul>
+                    <h3>Kekurangan CSS Ekternal</h3>
+                    <ul>
+                        <li>Tidak cocok untuk halaman website yang membutuhkan halaman custom</li>
+                        <li>Halaman website rawan berantakan saat file CSS gagal load dengan sempurna sehingga tampilan website berantakan.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </body>
