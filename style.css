@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* my script */
+
+body {
+    font: 15px/25px arial, sans-serif;
+    background-color: grey;
+    color: #333;
+    box-shadow: 0 14px 20px, (0, 0, 0, 0.25) black;
+}
+
+/* content */
+.content {
+    margin: auto;
+    width: 55%;
+    background-color: white;
+}
+
+.content .header {
+    padding: 20px;
+}
+.content .header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content ul li {
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+}
+
+.header a:hover{
+    color: aqua;
+}
+
+.content .image {
+    background-image: url(img/gambar.jpg);
+    background-size: cover;
+    height: 450px;
+    border-top: 3px solid salmon;
+    border-bottom: 3px solid salmon;
+}
+
+.artikel {
+    padding: 20px;
+}
+
+.artikel h2{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.artikel .author{
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+.author a{
+    text-decoration: none;
+    color: #333;
+}
+
+.author a:hover{
+    color: salmon;
+    background-color: aqua;
+}
+
+.artikel p{
+    padding-bottom:20px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: burlywood;
+    padding: 8px;
+}
+
+.footer .copy{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
