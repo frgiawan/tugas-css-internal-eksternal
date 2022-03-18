@@ -5,69 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas Web1 CSS internal dan Eksternal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
     body {
-        background-image: url(back.png);
+        background-image: url(img/back.png);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
     }
     .content{
         background-color: whitesmoke                            ;
         width: 800px;
         margin: auto;
-        border: 3px solid grey;
+        border-radius: 10px;
     }
 </style>
 <body>
     <div class="content">
         <div class="header">
-            <h2 class="judul">Tugas Web1 CSS internal & Ekternal</h2>
-            <ul>
+            <ul type="none">
                 <li><a href="##">home</a></li>
                 <li><a href="##">about</a></li>
                 <li><a href="##">contact</a></li>
             </ul>
+            <h2 class="judul">Tugas Web1 CSS internal & Ekternal</h2>
         </div>
-        <div class="gambar">
-            <img src="gambar.jpg" alt="gambar">
-        </div>
+        <div class="hero"></div>
         <div class="artikel">
             <div class="internal">
-                <h3 class="judulInternal">Css Internal</h3>
                 <p class="publiser">Publish by <a href="##">Firgiawan_F52120048</a> Tahun 2022</p>
+            <div class="artikel1">
+                <h3>Css Internal</h3>
                 <p>Jenis CSS yang pertama yang akan kita bahas adalah Internal CSS. Internal CSS adalah kode CSS yang ditulis dalam tag style dan lokasinya berada pada bagian atas header file HTML. Internal CSS digunakan untuk membuat custom khusus dalam satu halaman website sehingga halaman lain tidak terpengaruh.</p>
                 <p>Custom halaman dengan internal CSS ini cocok dipakai untuk Anda yang memiliki website dengan tampilan yang berbeda-beda. Jadi untuk Anda yang ingin membuat website unik dengan berbagai tampilan halaman website yang berbeda, maka inline CSS ini pilihan yang paling benar.</p>
-                <h3 class="judulInternal">Kelebihan CSS internal</h3>
+                <h3>Kelebihan CSS internal</h3>
                 <ul>
                     <li>Mudah dalam melakukan editing tiap halaman website</li>
                     <li>Tidak perlu melakukan upload file CSS karena masuk dalam file HTML</li>
                     <li>Class dan ID bisa dipakai oleh internal stylesheet</li>
                     <li>Mudah saat memperbaiki error CSS website</li>
                 </ul>
-                <h3 class="judulInternal">Kekurangan CSS internal</h3>
+                <h3>Kekurangan CSS internal</h3>
                 <ul>
                     <li>Tidak cocok untuk halaman website yang membutuhkan halaman custom</li>
                     <li>Halaman website rawan berantakan saat file CSS gagal load dengan sempurna sehingga tampilan website berantakan.</li>
                 </ul>
             </div>
+            </div>
             <div class="eksternal">
-                <h3 class="juduEksternal"></h3>
+                <h3>CSS Ekternal</h3>
                 <p>Jenis CSS yang kedua adalah External CSS. External CSS adalah kode CSS yang penulisannya dipisah dengan file HTML. Jadi file CSS ditulis pada file sendiri dengan ekstensi .css. File External CSS biasa dituliskan pada bagian head, jadi setiap halaman website dilakukan pemanggilan file .css.</p>
                 <p>Penggunaan External CSS lebih simple dan sederhana karena tidak perlu menuliskan CSS dalam setiap file HTML. Nah berikut kelebihan dan kekurangan serta contoh penulisan External CSS.</p>
-                <h3 class="judulEksternal">Kelebihan CSS Ekternal</h3>
+                <h3>Kelebihan CSS Ekternal</h3>
                 <ul>
                     <li>Ukuran file HTML menjadi lebih kecil</li>
                     <li>Penulisan kode HTML menjadi lebih rapi</li>
                     <li>Loading website menjadi lebih cepat</li>
                     <li>File CSS bisa digunakan untuk beberapa halaman website berbeda</li>
                 </ul>
-                <h3 class="judulEksternal">Kekurangan CSS Ekternal</h3>
+                <h3>Kekurangan CSS Ekternal</h3>
                 <ul>
                     <li>Tidak cocok untuk halaman website yang membutuhkan halaman custom</li>
                     <li>Halaman website rawan berantakan saat file CSS gagal load dengan sempurna sehingga tampilan website berantakan.</li>
                 </ul>
             </div>
         </div>
+        <div class="batas"></div>
         <div class="footer">
             <p class="copy">Copyright 2022 by Firgiawan_F52120048</p>
         </div>
