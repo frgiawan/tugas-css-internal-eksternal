@@ -4,33 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan 01</title>
+    <title>Tugas Web1 CSS internal dan Eksternal</title>
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
-    <div class="content">
+    <div class="content" style="width: 800px;">
         <div class="header">
-            <h1 class="judul">My Website</h1>
+            <h2 class="judul">Tugas Web1 CSS internal & Ekternal</h2>
             <ul>
-                <li><a href="##">Home</a></li>
-                <li><a href="##">About</a></li>
-                <li><a href="##">Service</a></li>
-                <li><a href="##">Contact</a></li>
-                <li><a href="##">Term</a></li>
+                <li><a href="##">home</a></li>
+                <li><a href="##">about</a></li>
+                <li><a href="##">contact</a></li>
             </ul>
         </div>
-        <div class="image"></div>
         <div class="artikel">
-            <h2>Judul Artikel</h2>
-            <p class="author">ditulis oleh <a href="###">Firgiawan</a> pada 1 January 2022</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque, aut quia porro corrupti unde similique sapiente, ea officiis eius quas at, repudiandae non id qui ab in? Provident, inventore.</p>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur excepturi sed est voluptatum ut quas praesentium adipisci nisi. In modi maiores vitae reiciendis perspiciatis error. Est velit sequi labore totam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore illum ex quaerat aut eum aperiam officia debitis et! Ipsum nesciunt ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quidem id nihil ullam totam ex rerum soluta facere vitae repudiandae placeat quia laboriosam laborum, aliquam ducimus eligendi, doloribus molestiae error.</p>
-
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque libero accusamus esse nihil odio, nesciunt obcaecati, ad omnis minima explicabo rerum! Odio error quod vel illo! Voluptates est quis quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo et accusamus nam rem aliquid velit explicabo similique. Magnam, rem? Eligendi debitis temporibus veritatis nostrum, nam recusandae architecto veniam dolorum esse quia optio, culpa atque quos impedit mollitia maxime et repudiandae nulla.</p>
+            <div class="internal">
+                <h3 class="judulInternal">Css Internal</h3>
+                <p class="publiser">Publish by <a href="##">Firgiawan_F52120048</a> 2022</p>
+                <p>Jenis CSS yang pertama yang akan kita bahas adalah Internal CSS. Internal CSS adalah kode CSS yang ditulis dalam tag style dan lokasinya berada pada bagian atas header file HTML. Internal CSS digunakan untuk membuat custom khusus dalam satu halaman website sehingga halaman lain tidak terpengaruh.</p>
+                <p>Custom halaman dengan internal CSS ini cocok dipakai untuk Anda yang memiliki website dengan tampilan yang berbeda-beda. Jadi untuk Anda yang ingin membuat website unik dengan berbagai tampilan halaman website yang berbeda, maka inline CSS ini pilihan yang paling benar.</p>
+                <h3 class="judulInternal">Kelebihan CSS internal</h3>
+                <ul>
+                    <li>Mudah dalam melakukan editing tiap halaman website</li>
+                    <li>Tidak perlu melakukan upload file CSS karena masuk dalam file HTML</li>
+                    <li>Class dan ID bisa dipakai oleh internal stylesheet</li>
+                    <li>Mudah saat memperbaiki error CSS website</li>
+                </ul>
+                <h3 class="judulInternal">Kekurangan CSS internal</h3>
+                <ul>
+                    <li>Tidak cocok untuk halaman website yang membutuhkan halaman custom</li>
+                    <li>Halaman website rawan berantakan saat file CSS gagal load dengan sempurna sehingga tampilan website berantakan.</li>
+                </ul>
+            </div>
+            <div class="eksternal">
+                <h3 class="juduEksternal"></h3>
+                <p>Jenis CSS yang kedua adalah External CSS. External CSS adalah kode CSS yang penulisannya dipisah dengan file HTML. Jadi file CSS ditulis pada file sendiri dengan ekstensi .css. File External CSS biasa dituliskan pada bagian head, jadi setiap halaman website dilakukan pemanggilan file .css.</p>
+                <p>Penggunaan External CSS lebih simple dan sederhana karena tidak perlu menuliskan CSS dalam setiap file HTML. Nah berikut kelebihan dan kekurangan serta contoh penulisan External CSS.</p>
+                <h3 class="judulEksternal">Kelebihan CSS Ekternal</h3>
+                <ul>
+                    <li>Ukuran file HTML menjadi lebih kecil</li>
+                    <li>Penulisan kode HTML menjadi lebih rapi</li>
+                    <li>Loading website menjadi lebih cepat</li>
+                    <li>File CSS bisa digunakan untuk beberapa halaman website berbeda</li>
+                </ul>
+                <h3 class="judulEksternal">Kekurangan CSS Ekternal</h3>
+                <ul>
+                    <li>Tidak cocok untuk halaman website yang membutuhkan halaman custom</li>
+                    <li>Halaman website rawan berantakan saat file CSS gagal load dengan sempurna sehingga tampilan website berantakan.</li>
+                </ul>
+            </div>
         </div>
         <div class="footer">
-            <p class="copy">Copyright 2022. by Firgiawan Inc</p>
+            <p class="copy">Copyright 2022 by Firgiawan_F52120048</p>
         </div>
     </div>
 </body>
