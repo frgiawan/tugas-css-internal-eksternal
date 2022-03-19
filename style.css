@@ -165,6 +165,7 @@ html, body, h2, h3, a{
         grid-template-areas: 
             'kepala'
             'artikel';
+         width : 80%;
     }
       .sidebar { 
         display: grid;
