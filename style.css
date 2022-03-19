@@ -149,7 +149,7 @@ html, body, h2, h3, a{
 
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 430px) {
     .container {
         display: grid; 
         grid-template-columns: 1fr; 
@@ -157,7 +157,7 @@ html, body, h2, h3, a{
         grid-template-areas: 
           "main"
           "sidebar"; 
-        height: 5400px;
+        height: 6900px;
       }
       .main { 
         grid-area: main;
@@ -165,6 +165,7 @@ html, body, h2, h3, a{
         grid-template-areas: 
             'kepala'
             'artikel';
+        width: 80%;
     }
       .sidebar { 
         display: grid;
@@ -174,9 +175,10 @@ html, body, h2, h3, a{
         grid-area: sidebar;
         height: 700px;
         margin-top: -450px;
+        margin-left: -20px;
         }
         .main .artikel{
-            margin-top: -10px;
+            margin-top: -300px;
         }
 
 }
