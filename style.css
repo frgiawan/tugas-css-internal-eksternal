@@ -159,7 +159,7 @@ html, body, h2, h3, a{
           "sidebar"; 
         height: 6900px;
       }
-      div.main { 
+      .main { 
         grid-area: main;
         display: grid;
         grid-template-areas: 
@@ -167,7 +167,7 @@ html, body, h2, h3, a{
             'artikel';
         width: 80%;
     }
-      div.sidebar { 
+      .sidebar { 
         display: grid;
         grid-template-areas: 
             'draff'
@@ -177,7 +177,7 @@ html, body, h2, h3, a{
         margin-top: -450px;
         margin-left: -20px;
         }
-        div.main .artikel{
+        .main .artikel{
             margin-top: -300px;
         }
 
