@@ -150,7 +150,7 @@ html, body, h2, h3, a{
 }
 
 @media screen and (max-width: 430px) {
-    .container {
+    div.container {
         display: grid; 
         grid-template-columns: 1fr; 
         grid-template-rows: 1.5fr 0.5fr; 
@@ -159,7 +159,7 @@ html, body, h2, h3, a{
           "sidebar"; 
         height: 6900px;
       }
-      .main { 
+      div.main { 
         grid-area: main;
         display: grid;
         grid-template-areas: 
@@ -167,7 +167,7 @@ html, body, h2, h3, a{
             'artikel';
         width: 80%;
     }
-      .sidebar { 
+      div.sidebar { 
         display: grid;
         grid-template-areas: 
             'draff'
@@ -177,7 +177,7 @@ html, body, h2, h3, a{
         margin-top: -450px;
         margin-left: -20px;
         }
-        .main .artikel{
+        div.main .artikel{
             margin-top: -300px;
         }
 
